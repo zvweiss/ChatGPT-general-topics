@@ -1,0 +1,8 @@
+<div *ngIf="topic">
+  <h1>{{ topic.title }}</h1>
+  <div [innerHTML]="topic.content"></div>
+</div>
+
+<div *ngIf="!topic">
+  <p>Topic not found. Please check the URL or select from the sidebar.</p>
+</div>

@@ -1,0 +1,43 @@
+h2.underlined {
+  text-decoration: underline;
+}
+nav {
+    width: 250px;
+    background: #333;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  nav h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav li {
+    margin: 1rem 0;
+  }
+  nav a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  li.active {
+    background-color: #e1cfcf;
+    border-radius: 6px;
+  }
+  
+  li.active a {
+    color: #000;
+    font-weight: bold;
+  }
+  /* a.active {
+    font-weight: bold;
+    color: #ffffff5f;
+  } */
+  
