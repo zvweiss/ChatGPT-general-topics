@@ -1,14 +1,19 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './components/sidebar/sidebar.component'; // Adjust path if needed
 
-@Component({
+export @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, SidebarComponent],
+  imports: [RouterModule, CommonModule, SidebarComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'general-topics';
+class AppComponent {
+  isCollapsed = false;
+
+  toggleSidebar() {
+    this.isCollapsed = !this.isCollapsed;
+  }
 }

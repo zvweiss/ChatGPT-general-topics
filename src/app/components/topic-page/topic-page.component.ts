@@ -1,26 +1,3 @@
-// import { Component, OnInit } from '@angular/core';
-// import { CommonModule } from '@angular/common';
-// import { ActivatedRoute } from '@angular/router';
-// import { TOPICS, Topic } from '../../data/topics';
-
-// @Component({
-//   selector: 'app-topic-page',
-//   standalone: true,
-//   imports: [CommonModule],  // This gives you *ngIf, *ngFor, pipes, etc.
-//   templateUrl: './topic-page.component.html',
-//   styleUrls: ['./topic-page.component.css']
-// })
-// export class TopicPageComponent implements OnInit {
-//   topic: Topic | undefined;
-
-//   constructor(private route: ActivatedRoute) {}
-
-//   ngOnInit(): void {
-//     const slug = this.route.snapshot.paramMap.get('slug');
-//     this.topic = TOPICS.find(t => t.slug === slug);
-//   }
-// }
-
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { CommonModule } from '@angular/common';

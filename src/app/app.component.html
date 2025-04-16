@@ -1,6 +1,11 @@
-<div style="display: flex;">
+  <div class="container" [class.collapsed]="isCollapsed">
     <app-sidebar></app-sidebar>
-    <main style="flex: 1; padding: 2rem;">
+  
+    <button class="sidebar-toggle" [ngStyle]="{ 'background-color': 'rgba(0, 0, 255, 0.0)' }"  (click)="toggleSidebar()">
+      {{ isCollapsed ? '➡️' : '⬅️' }}
+    </button>
+  
+    <main>
       <router-outlet></router-outlet>
     </main>
   </div>
