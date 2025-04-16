@@ -1,0 +1,37 @@
+<h1>Gridworld: Overview</h1>
+
+<p>
+  The Gridworld environment is a classic example from Sutton and Barto's reinforcement learning book.
+  It's a grid of states where an agent can move in four directions, receive rewards, and learn value estimates over time.
+</p>
+
+<p>
+  This page introduces the purpose of the environment, and outlines the internal structure of the implementation.
+</p>
+
+<h2>🗂 File Structure</h2>
+
+<pre><code>
+src/
+├── app/
+│   ├── components/
+│   │   ├── gridworld/             ← GridworldComponent (main view + controls)
+│   │   ├── grid-cell/             ← GridCellComponent (renders each cell)
+│   │   └── gridworld-overview/    ← This overview page
+│   ├── services/
+│   │   └── gridworld.service.ts   ← Manages grid state, agent, and movement
+│   ├── models/
+│   │   └── gridworld-model.ts     ← Types for cells, agent, directions
+</code></pre>
+
+<h2>📘 Demonstration Goals</h2>
+<ul>
+  <li>Visualize state space and agent movement</li>
+  <li>Introduce value functions and learning updates</li>
+  <li>Show how RL agents improve over time</li>
+  <li>Bridge theory with hands-on interaction</li>
+</ul>
+
+<p>
+  Navigate to <a routerLink="/gridworld">Gridworld Interactive View</a> to try it live.
+</p>

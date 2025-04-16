@@ -17,19 +17,8 @@ export const TOPICS: Topic[] = [
         <li><strong>Predefined vs. Learned Knowledge</strong></li>
         <li><strong>Adaptability to New Situations</strong></li>
       </ul>
-      <p>Ultimately, artificial intelligence seeks to replicate (and sometimes surpass) aspects of human problem-solving, learning, and adaptation, though it remains fundamentally different in how it operates.</p>
-    
-    src/
-├── app/
-│   ├── components/
-│   │   ├── gridworld/             ← GridworldComponent (main view + controls)
-│   │   ├── grid-cell/             ← GridCellComponent (renders each cell)
-│   ├── services/
-│   │   └── gridworld.service.ts   ← Manages grid state, agent, and movement
-│   ├── models/
-│   │   └── gridworld-model.ts     ← Types for cells, agent, directions
-    
-    `
+      <p>Ultimately, artificial intelligence seeks to replicate (and sometimes surpass) aspects of human problem-solving, learning, and adaptation, though it remains fundamentally different in how it operates.</p>     
+ `,
   },
   {
     slug: 'purpose-of-ai',
@@ -38,7 +27,7 @@ export const TOPICS: Topic[] = [
       <p>Discover how AI is shaping productivity, creativity, ethics, and human interaction in modern life. Artificial intelligence is transforming nearly every aspect of society—from how we work and communicate to how decisions are made at large scale.</p>
       <p>AI tools are used in medicine, education, finance, manufacturing, and even the arts. While these advancements offer huge potential, they also raise important questions about trust, accountability, and the future of human-AI collaboration.</p>
       <p>Understanding the purpose and limits of AI is key to developing systems that align with our values and enhance human capabilities.</p>
-    `
+    `,
   },
   {
     slug: 'reinforcement-learning',
@@ -54,7 +43,7 @@ export const TOPICS: Topic[] = [
         <li><strong>Q-values</strong> – estimates of expected future rewards</li>
       </ul>
       <p>Over time, a well-trained RL agent converges toward an optimal policy that maximizes cumulative rewards across many episodes of experience.</p>
-    `
+    `,
   },
   {
     slug: 'game-strategy-vs-ai',
@@ -63,7 +52,7 @@ export const TOPICS: Topic[] = [
       <p>Human players often rely on known strategies and heuristics when playing games — like controlling the center in chess or choosing corners in Tic-Tac-Toe.</p>
       <p>AI agents, on the other hand, can discover effective strategies through reinforcement learning without being explicitly taught. These strategies can be similar to human tactics or sometimes even surprising and novel.</p>
       <p>This comparison is crucial in education — showing that intelligent behavior doesn’t have to be hand-coded, but can emerge from interaction and adaptation.</p>
-    `
+    `,
   },
   {
     slug: 'heuristics-vs-emergent',
@@ -72,7 +61,7 @@ export const TOPICS: Topic[] = [
       <p>Heuristics are simple, predefined rules or guidelines that help humans and machines make decisions quickly — for example, “if the path is blocked, turn right.”</p>
       <p>Emergent behavior, in contrast, arises from the learning process itself. Rather than following explicit rules, an AI agent develops its own patterns of behavior by interacting with the environment and receiving feedback.</p>
       <p>In many cases, emergent behavior surpasses hand-coded logic, especially in complex or dynamic environments.</p>
-    `
+    `,
   },
   {
     slug: 'visualization-techniques',
@@ -81,7 +70,7 @@ export const TOPICS: Topic[] = [
       <p>Visual tools can dramatically improve how people understand complex ideas — especially in fields like artificial intelligence and reinforcement learning.</p>
       <p>Techniques such as heatmaps, directional arrows, overlays, and animated transitions help learners see how an agent behaves, where decisions are made, and what strategies are evolving over time.</p>
       <p>Effective visualizations bridge the gap between abstract concepts and intuitive understanding, making education more engaging and accessible.</p>
-    `
+    `,
   },
   {
     slug: 'state-space-and-generalization',
@@ -90,7 +79,7 @@ export const TOPICS: Topic[] = [
       <p>The state space of a system refers to the set of all possible situations or configurations it can be in. In games like Tic-Tac-Toe, the state space is the collection of every possible board position.</p>
       <p>Generalization refers to an agent's ability to apply learned behavior to unseen states or similar environments. For instance, an agent trained on a 3x3 maze might struggle in a 5x5 maze unless it has learned general principles rather than memorized paths.</p>
       <p>Understanding state space and generalization helps us design smarter AI that can adapt to complexity and scale.</p>
-    `
+    `,
   },
   {
     slug: 'ai-vs-human-creativity',
@@ -100,6 +89,6 @@ export const TOPICS: Topic[] = [
       <p>Human creativity often involves intuition, ambiguity, risk-taking, and deep meaning. AI, in contrast, mixes and matches what it has seen, excelling at novel combinations but lacking true understanding.</p>
       <p>Still, AI-assisted creativity is a powerful tool. Artists, writers, and scientists can use AI to explore ideas faster and uncover patterns they might miss.</p>
       <p>Rather than asking whether AI can be <em>as</em> creative as humans, we might ask how it can <em>enhance</em> our own creativity.</p>
-    `
-  }
+    `,
+  },
 ];
