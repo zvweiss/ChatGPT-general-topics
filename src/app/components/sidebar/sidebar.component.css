@@ -23,6 +23,7 @@ nav {
   nav a {
     color: #ddd;
     text-decoration: none;
+    /* white-space: nowrap; */
   }
   nav a:hover {
     text-decoration: underline;
@@ -30,14 +31,10 @@ nav {
   li.active {
     background-color: #e1cfcf;
     border-radius: 6px;
+    transition: background-color 0.3s ease;
   }
   
   li.active a {
     color: #000;
     font-weight: bold;
   }
-  /* a.active {
-    font-weight: bold;
-    color: #ffffff5f;
-  } */
-  
