@@ -18,6 +18,17 @@ export const TOPICS: Topic[] = [
         <li><strong>Adaptability to New Situations</strong></li>
       </ul>
       <p>Ultimately, artificial intelligence seeks to replicate (and sometimes surpass) aspects of human problem-solving, learning, and adaptation, though it remains fundamentally different in how it operates.</p>
+    
+    src/
+├── app/
+│   ├── components/
+│   │   ├── gridworld/             ← GridworldComponent (main view + controls)
+│   │   ├── grid-cell/             ← GridCellComponent (renders each cell)
+│   ├── services/
+│   │   └── gridworld.service.ts   ← Manages grid state, agent, and movement
+│   ├── models/
+│   │   └── gridworld-model.ts     ← Types for cells, agent, directions
+    
     `
   },
   {
